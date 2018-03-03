@@ -1,0 +1,157 @@
+@font-face {
+    font-family: bitchat;
+    src: url(bitchat.ttf);
+}
+ 
+ 
+ 
+ body {
+    margin: 0;
+    padding: 0;
+	font-family: bitchat;
+	background-color: #e8e8e8;
+ }
+ #logofont 
+{ 
+     left: 89px; 
+     top: 16px; 
+     position: absolute; 
+     width: 164px;
+     height: 38px;
+     z-index:8;
+	 font-size: 36px;
+	 color: #16c0df;
+} 
+
+
+ #background
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1366px;
+     height: 768px; 
+     overflow: hidden;
+     z-index:0;
+	 text-decoration: none;
+    }
+	a{
+		text-decoration: none;
+	}
+ #backdrop 
+{ 
+     left: 0px; 
+     top: 85px; 
+     position: absolute; 
+     width: 1366px;
+     height: 560px;
+     z-index:0;
+	 background-color:#e8e8e8;
+} 
+ #footer 
+{ 
+     left: 0px; 
+     top: 645px; 
+     position: absolute; 
+     width: 1366px;
+     height: 123px;
+     z-index:2;
+} 
+ #toolbar 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1366px;
+     height: 85px;
+     z-index:7;
+} 
+ #logofont 
+{ 
+     left: 89px; 
+     top: 16px; 
+     position: absolute; 
+     width: 164px;
+     height: 38px;
+     z-index:8;
+	 font-size: 36px;
+	 color: #16c0df;
+} 
+ #Home 
+{  
+     top: 16px; 
+	 left: 45%;
+     position: absolute; 
+     width: 88px;
+	 font-family: bitchat;
+     height: 24px;
+     z-index:10;
+	 font-size: 28px;
+	 color: #16c0df;
+}
+ #Home a
+{    
+	 color: #16c0df;
+} 
+ #logo 
+{ 
+     left: 16px; 
+     top: 13px; 
+     position: absolute; 
+     width: 46px;
+     height: 42px;
+     z-index:12;
+} 
+ #signpanel 
+{ 
+	 left: 483px; 
+	 top: 135px; 
+	 position: absolute; 
+	 width: 346px;
+	 height: 436px;
+	 z-index:0;
+} 
+ #shadow 
+{ 
+	 left: 483px; 
+	 top: 135px; 
+	 position: absolute; 
+	 width: 346px;
+	 height: 436px;
+	 z-index:0;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;
+-webkit-box-shadow: #B3B3B3 4px 4px 4px;-moz-box-shadow: #B3B3B3 4px 4px 4px; box-shadow: #B3B3B3 4px 4px 4px;
+} 
+
+input[type="varchar"] {
+	background: url("/IMG/bitchat/username.png") no-repeat scroll 0 0 transparent;
+	 left: 520px; 
+	 top: 381px; 
+	 position: absolute; 
+	 width: 271px;
+	 height: 32px;
+	 z-index:2;
+} 
+
+input[type="password"] {
+	background: url("/IMG/bitchat/password.png") no-repeat scroll 0 0 transparent;
+	 left: 521px; 
+	 top: 443px; 
+	 position: absolute; 
+	 width: 271px;
+	 height: 32px;
+	 z-index:2;
+} 
+
+input[type="submit"] {
+	 background: url("/IMG/bitchat/signbutton.png") no-repeat scroll 0 0 transparent;
+	 left: 588px; 
+	 top: 493px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 50px;
+	 z-index:2;
+	 border: none;
+} 

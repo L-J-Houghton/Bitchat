@@ -1,0 +1,90 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+web_app.php
+...........
+__________________
+
+
+START DATE:
+16/01/2017
+..................
+DATE OF COMPLETION: 
+04/04/2017
+..................
+-------------------
+--------------
+16/01 - 20/01:
+--------------
+Implementing UI design for web_app.php which
+acts as the central page. Wireframe was made
+and written in HTML5. Anchor tags added to
+enable naviagaton to the future pages of the
+web app. Div tags were also added for future
+styling and positioning using CSS3.
+
+--------------
+20/01 - 21/01:
+--------------
+Implementing UI design for web_app.php which
+acts as the central page. CSS3 was written 
+with references to the div tags that had
+already been made within the (wireframe)
+HTML5 code. Positioning and sizing etc, 
+then applied using CSS3.
+--------------
+22/01 - 25/01:
+--------------
+Implementing Google maps api and creating a basic
+map of the campus , refering to the maps api reference
+page provided by google as a guide. A basic map has been
+made (using Javascript)that on load will display the campus.
+--------------
+25/01 - 26/01:
+--------------
+Developing the map by adjusting the display values thus
+making map more aesthetically appealing.
+--------------
+25/01 - 26/01:
+--------------
+Creating an image overlay that would be used to create
+a visually appealing map for the web app user(s).
+--------------
+26/01 - 29/01:
+--------------
+Implementing the image overlay for the campus map, using
+the online guide to refer to the overlay process.
+--------------
+30/01 - 31/01:
+--------------
+Implementing markers that will be loaded into the map via
+the xml output (see xml_output.php). This used longitude
+and latitude values fetched from the database to position
+each marker accordingly 
+--------------
+02/02 - 04/02:
+--------------
+Adding custom image to marker points by encoding the image
+of the marker (logo) in base 64.
+--------------
+05/02 - 10/02:
+--------------
+Implementing the quick message form using PHP + MySQL.
+Creating a drop down select menu to allow user(s) to 
+select chosen area effeciently. Also writing the queries
+that will allow user to insert (send) a message to the 
+database.
+--------------
+11/02 - 12/02:
+--------------
+Including the files that would be needed to interact
+with the web app for example the database connection
+files and user session files etc.
+--------------
+13/02 - 04/04:
+--------------
+Further changes were made , primarily to the UI of the
+web app and extra security features were added to prevent
+security threats.

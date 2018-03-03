@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/naumaniqbal/Git/BitChat_latest/Group_O/androidStudioProject/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a644a6f54bafd8b3f5426ca696c17d0a203f2e81">
+        <dex dex="/Users/naumaniqbal/Git/BitChat_latest/Group_O/androidStudioProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6a16289f705ff71780c8fa89553e3c2eef12c128/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/naumaniqbal/Git/BitChat_latest/Group_O/androidStudioProject/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/naumaniqbal/Git/BitChat_latest/Group_O/androidStudioProject/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c6366e9c19e63d16021f0d430fbbad6f4ec65f88/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,40 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+bitchat.php
+...........
+__________________
+
+
+START DATE:
+10/01/2017
+..................
+DATE OF COMPLETION: 
+12/01/2017 --TBC
+..................
+-------------------
+
+10/01 - 11/01:
+--------------
+Implementing UI design for bitchat.php which
+acts as a sign in page. Wireframe was made
+and written in HTML5. Anchor tags added to
+enable naviagaton to the future pages of the
+web app. Div tags were also added for future
+styling and positioning using CSS3. CSS file
+source added.
+
+
+11/01 - 12/01:
+--------------
+Implementing UI design for bitchat.php which
+acts as a sign in page. CSS3 was written 
+with references to the div tags that had
+already been made within the (wireframe)
+HTML5 code. Positioning and sizing etc, 
+then applied using CSS3.
+
+/0 - /0:
+--------------

@@ -1,0 +1,35 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+home.php
+........
+__________________
+
+
+START DATE:
+04/01/2017
+..................
+DATE OF COMPLETION: 
+10/01/2017
+..................
+-------------------
+04/01 - 07/01:
+--------------
+Implementing UI design for home.php which
+acts as a landing page. Wireframe was made
+and written in HTML5. Anchor tags added to
+enable naviagaton to the future pages of the
+web app. Div tags were also added for future
+styling and positioning using CSS3.
+
+
+07/01 - 10/01:
+--------------
+Implementing UI design for home.php which
+acts as a landing page. CSS3 was written 
+with references to the div tags that had
+already been made within the (wireframe)
+HTML5 code. Positioning and sizing etc, 
+then applied using CSS3.

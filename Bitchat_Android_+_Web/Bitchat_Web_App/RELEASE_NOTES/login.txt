@@ -1,0 +1,28 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+login.php
+.........
+__________________
+
+
+START DATE:
+14/01/2017
+..................
+DATE OF COMPLETION: 
+15/01/2017
+..................
+-------------------
+14/01 - 15/01:
+--------------
+Implementing a file which will initiate
+a session (written in PHP/MySQL). This file
+checks the user input from form made in
+bitchat.php , connects and queries the 
+database and authenticates the user. If 
+incorrect a simple error message has 
+implemented to prompt the user. If correct
+login.php will direct the user to the main
+web_app.php file which and continue the session.

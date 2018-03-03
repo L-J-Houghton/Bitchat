@@ -1,0 +1,29 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+xml_output.php
+..............
+__________________
+
+
+START DATE:
+29/01/2017
+..................
+DATE OF COMPLETION: 
+31/02/2017
+..................
+-------------------
+
+29/02 - 31/02:
+--------------
+In order to display the marker data stored in
+the database effeciently the file was written 
+in PHP which took the data from the database
+and parsed it through a function made in PHP
+which then displayed the output as XML code.
+This would be needed as google maps api would
+need this in order to have custom locational
+markers that would allow them to be displayed 
+within the web app via the campus map.

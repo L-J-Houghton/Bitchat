@@ -1,0 +1,132 @@
+BIT CHAT
+
+RELEASE NOTES VER 2.6.1
+
+IDE: Android Studio 2.2.3
+
+DEVELOPMENT LOG:
+
+
+2.6.1 CHANGES:
+
+- Minimum username length lowered to 3 characters.
+- Settings page improved ui and explanation.
+- Data base operations for account page has been created to store all the database 
+  code separate. Login request still resides in the loginActivity. (Needs to be moved).
+- fixed the login pages orientation on portrait to prevent circle having to loose height
+- Code has all been completely commented. and all comments are up to date.
+
+2.6.0 CHANGES:
+
+- Data base operations for fragments has been moved into a separate class “DatabaseOperations”.
+- Bug detected during user testing involving the back button signing the user out has been fixed.
+- Improved back button pressing logic has also been applied to guide the user back along a route to 
+  reach previous pages, as opposed to exiting the application.
+- Lowered background image resolution on home screen to improve start up load times.
+- Password change function added to settings page.
+
+2.5.2 CHANGES:
+- About fragment page added
+- aboutFragment.java, fragment_about.xml, MainActivity.java edited
+- 2 images loaded in drawable; ic_copyright + ic_remove
+
+2.5.1 CHANGES:
+- markers added to map page.
+
+2.50 CHANGES:
+- settings added, bigs fixed to do with edit text overlapping messages inside forums.
+
+2.40 CHANGES:
+- registration functionality added, login page improved. Unable to sign in error messages made more specific.
+
+2.16 CHANGES:
+- Android Gradle Plugin, after gradle bundle update was removed from Project Structure
+  causing issues. Gradle bundle update, after ver 2.1 introduced discrepancies. After
+  git pull <2.1+> Project Structure was without Android Gradle Plugin required to run
+  the application
+- Added Android Gradle Plugin ver 2.3.1 installed with Project Structure
+ 
+2.15 CHANGES:
+- git rebase -i <ver 2.1> 
+
+2.11 CHANGES:
+- a bug was found in onNavigationItemSelected, as one of the items was always false 
+- onNavigationItemSelected code re-written
+- Tint added for icons in navigation drawer (back to default)
+
+2.1 CHANGES:
+- Material design icons added 48x48 px
+- Navigation drawer header realigned
+- Navigation drawer setItemIconTintList to null
+
+2.0.1 CHANGES:
+- Event handling added to marker (info window) click
+- Marker click takes the user to the respective forum page
+
+2.0 CHANGES:
+- Google Maps integrated into Bit Chat application as a fragment
+
+1.5.1 CHANGES:
+- Refactoring could not reflect all the proper changes so changes were done manually
+- Folder moved from com/example/rohan/BitChat to com/bitchat
+- Package renamed accordingly
+- Files and packages within them renamed
+- AndroidManifest.xml reflected to show the base package as com.bitchat
+
+1.5 CHANGES:
+- Cleaned up the code
+	- Removed unused variables left over during conversion from 1.3 (activities) to
+	  1.4 (fragments)
+	
+COMPLETED:
+
+- Login Page
+	- Authentication + Validation
+	- Basic user interface provided by Android Studio template.
+	- Communicating with aa PHP script via a Volley 'StringRequest'.
+- Forum Access Page
+	- A connection to a PHP script stored on Igor has been implemented which pulls a list 
+	  of forums and places them in a 'ListView' object.
+	- Each item in the ListView is clickable and will take the user to the selected forum.
+	- Converted into a fragment.
+- Forum page
+	- This 'Activity' has been designed to adapt depending on the forum selected allowing
+	  us to use one activity for all the forums.
+	- A basic user interface has been created which provides the user with a list of 
+	  the current messages in their chosen forum as well as an 'EditText' field for the 
+	  user to enter a message and a button for them to send it. 
+	- Converted into a fragment.
+- PHP Scripts
+	- The various functions which previously existed in separate scripts have now been 
+	  combined into one script.
+ 	- The current requests have been added with another post parameter which distinguishes 
+	  the type of the request, so that they can be directed to the correct function upon 
+	  accessing the script. 
+- Singleton
+	- A singleton implementation of a request handler has been added. This has solved an 
+	  error which occurred in the forum page, which was causing the application to close 
+	  after a period of time.
+	- All the current requests in the pages have been modified in order to take advantage 
+	  of the singleton request handler.
+- UserInterface 
+	- The previous activities have been converted into an array of fragments. 
+	- We now have two activities, “MainActivity” and “LoginActivity”. “MainActivity” is 
+	  active when the user is logged in and “LoginActivity” is active when the user is 
+	  logged out.
+	- The navigation menus, including a drop down menu, and a drawer 
+  	  for navigating to the different pages of the application have now been implemented 
+  	  into the “MainActivity”.
+
+	- (SQL Injection prevention measures were added in the previous version and were 
+	  accidentally not noted in the release notes): Added precautions to protect all the 
+	  PHP files from SQL injections.
+
+TODO:
+
+	  every time they are needed.
+	- Login Screen: Emphasis starts with focus on the email TextBox, so the keyboard
+	  appears. Focus at the start needs to be away. 	
+
+
+
+  

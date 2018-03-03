@@ -1,0 +1,164 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.aboutFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="45dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/logoName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="25pt"
+        android:text="        itChat" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="65dp"
+        android:text="Version 2.5.2" />
+
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="65dp"
+        android:text="Team Members" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nauman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="85dp"
+        android:text="Tim Christophe" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="85dp"
+        android:text="Jordan Brannan" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/rohan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="85dp"
+        android:text="Nauman Iqbal" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/luke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="85dp"
+        android:text="Luke Houghton" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/jordan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="85dp"
+        android:text="Rohan Corbyn" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginLeft="68dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/chenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="85dp"
+        android:text="Chenda Bunkasem" />
+
+    <ImageView
+        android:id="@+id/copyright"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_copyright_black_24dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="45dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:layout_marginLeft="65dp"
+        android:text="BitChat: last build on April 18, 2017" />
+
+</FrameLayout>

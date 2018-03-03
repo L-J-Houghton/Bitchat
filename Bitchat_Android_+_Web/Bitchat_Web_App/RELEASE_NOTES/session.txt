@@ -1,0 +1,27 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+
+session.php
+...........
+__________________
+
+
+START DATE:
+14/01/2017
+..................
+DATE OF COMPLETION: 
+15/01/2017
+..................
+-------------------
+14/01 - 15/01:
+--------------
+Implementing a file which will check
+a session is open(written in PHP/MySQL). 
+This file checks to see if the user is
+currently logged in and therefore the
+session is open. If the session does not
+exist or has been closed the user will
+be redirected to back to bitchat.php 
+(sign in page).

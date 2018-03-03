@@ -1,0 +1,423 @@
+ @font-face {
+    font-family: bitchat;
+    src: url(bitchat.ttf);
+}
+ 
+ 
+ 
+ body {
+    margin: 0;
+    padding: 0;
+	font-family: bitchat;
+ }
+ 
+
+ #background
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1366px;
+     height: 768px; 
+     overflow: hidden;
+     z-index:0;
+	 text-decoration: none;
+    }
+	a{
+		text-decoration: none;
+	}
+
+ #map 
+{ 
+     left: 0px; 
+     top: 85px; 
+     position: absolute; 
+     width: 1366px;
+     height: 560px;
+     z-index:1;
+} 
+
+ #footer 
+{ 
+     left: 0px; 
+     top: 645px; 
+     position: absolute; 
+     width: 1366px;
+     height: 123px;
+     z-index:2;
+} 
+
+ #sendheader 
+{ 
+     left: 968px; 
+     top: 177px; 
+     position: absolute; 
+     width: 300px;
+     height: 390px;
+     z-index:3;
+} 
+input[type="submit"] {
+    background: url(/IMG/web_app/sendbutton.png);
+     left: 968px; 
+     top: 508px; 
+     position: absolute; 
+     width: 300px;
+     height: 59px;
+     z-index:4;
+     border: 0;
+}
+
+
+
+
+textarea#chatbox
+{ 
+     left: 969px; 
+     top: 235px; 
+     position: absolute; 
+     width: 295px;
+     height: 222px;
+     z-index:6;
+	 border:none;
+	 font-family:bitchat;
+} 
+
+ #toolbar 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1366px;
+     height: 85px;
+     z-index:7;
+} 
+
+ #logofont 
+{ 
+     left: 89px; 
+     top: 16px; 
+     position: absolute; 
+     width: 164px;
+     height: 38px;
+     z-index:8;
+	 font-size: 36px;
+	 color: #16c0df;
+} 
+
+ #Hi 
+{ 
+     left: 630px; 
+     top: 26px; 
+     position: absolute; 
+	 font-family: bitchat;
+     width: 29px;
+     height: 25px;
+     z-index:9;
+	 font-size: 28px;
+	 color:#16c0df;
+} 
+
+ #Home 
+{ 
+     left: 383px; 
+     top: 27px; 
+     position: absolute; 
+     width: 88px;
+	 font-family: bitchat;
+     height: 24px;
+     z-index:10;
+	 font-size: 28px;
+	 color: #16c0df;
+}
+ #Home a
+{ 
+
+	 color: #16c0df;
+} 
+select{
+	font-family: bitchat;
+	 left: 968px; 
+     top: 454px; 
+     position: absolute; 
+     width: 300px;
+     height: 54px;
+     z-index:5;
+	 text-align: center;
+	
+}
+#y{
+	background-color:#FEE227;
+	color:white;
+}
+#p{
+	background-color:#7300AB;
+	color:white;
+}
+#r{
+	background-color:#BA0000;
+	color:white;
+}
+#g{
+	background-color:#00BB27;
+	color:white;
+}
+#b{
+	background-color:#50AFE4;
+	color:white;
+}
+#t{
+	background-color:#008080;
+	color:white;
+}
+ #Signout 
+{ 
+     left: 1203px; 
+     top: 27px; 
+     position: absolute; 
+	 font-family: bitchat;
+     width: 129px;
+     height: 33px;
+     z-index:11;
+	 font-size: 20px;
+	 color:#16c0df;
+} 
+#Signout a{
+	color: #16c0df;
+}
+ #logo 
+{ 
+     left: 16px; 
+     top: 13px; 
+     position: absolute; 
+     width: 46px;
+     height: 42px;
+     z-index:12;
+} 
+
+
+ #IGLTbutton 
+{ 
+     left: 50px; 
+     top: 567px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#008080;
+     z-index:14;
+} 
+
+ #LIBbutton 
+{ 
+     left: 50px; 
+     top: 478px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#7300AB;
+
+     z-index:15;
+} 
+
+ #PSHbutton 
+{ 
+     left: 50px; 
+     top: 388px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#BA0000;
+     z-index:16;
+} 
+
+ #GREENbutton 
+{ 
+     left: 50px; 
+     top: 290px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#00BB27;
+     z-index:17;
+} 
+
+ #DOCbutton 
+{ 
+     left: 50px; 
+     top: 198px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#50AFE4;
+     z-index:18;
+} 
+
+
+ #RHBbutton 
+{ 
+     left: 50px; 
+     top: 108px; 
+     position: absolute;
+	 width: 75px;
+	  height: 75px;
+	  border-radius: 50%;
+	  font-size: 20px;
+	  font-family: bitchat;
+	  color: white;
+	  line-height: 75px;
+	  text-align: center;	 
+	 background-color:#FEE227;
+     z-index:19;
+} 
+ #RHBbutton a
+{ 
+
+	 color: white;
+
+} 
+ #PSHbutton a
+{ 
+
+	 color: white;
+
+} 
+ #IGLTbutton a
+{ 
+	 color: white;
+} 
+ #DOCbutton a
+{ 
+	 color: white;
+
+}
+ #LIBbutton a
+{ 
+
+	 color: white;
+
+}
+ #GREENbutton a
+{ 
+
+	 color: white;
+
+}  
+ #IGLTbutton:hover  
+{ 
+     left: 39px; 
+     top: 567px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#006666;
+     z-index:14;
+	 
+} 
+
+ #LIBbutton:hover  
+{ 
+     left: 39px; 
+     top: 478px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#430064;
+     z-index:15;
+} 
+
+ #PSHbutton:hover 
+{ 
+     left: 39px; 
+     top: 388px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#b40000;
+     z-index:16;
+} 
+
+ #GREENbutton:hover 
+{ 
+     left: 39px; 
+     top: 290px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#11772d;
+     z-index:17;
+} 
+
+ #DOCbutton:hover 
+{ 
+     left: 39px; 
+     top: 198px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+	-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#0098db;
+     z-index:18;
+} 
+
+ #RHBbutton:hover 
+{ 
+     left: 39px; 
+     top: 108px; 
+     position: absolute; 
+     width: 310px;
+     height: 75px;
+	 transition-duration: 0.5s;
+	-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background-color:#f9c802;
+     z-index:19;
+} 
+
+
+
+
+ #username 
+{ 
+     left: 686px; 
+     top: 26px; 
+     position: absolute; 
+     width: 276px;
+     height: 32px;
+     z-index:26;
+	 font-family: bitchat;
+	 font-size: 28px;
+	 color: #16c0df;
+} 

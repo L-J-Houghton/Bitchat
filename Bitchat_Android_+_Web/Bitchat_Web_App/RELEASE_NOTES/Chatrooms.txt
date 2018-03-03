@@ -1,0 +1,54 @@
+---------------
+RELEASE NOTES:
+---------------
+FILE:
+(Chatrooms):
+IGLT.php
+DOC.php
+GREEN.php
+RHB.php
+PSH.php
+............
+__________________
+
+
+START DATE:
+14/02/2017
+..................
+DATE OF COMPLETION: 
+04/04/2017
+..................
+-------------------
+
+16/01 - 20/01:
+--------------
+Implementing UI design for each file which
+acts as the central page. Wireframe was made
+and written in HTML5. Anchor tags added to
+enable naviagaton to the future pages of the
+web app. Div tags were also added for future
+styling and positioning using CSS3.
+
+
+20/01 - 21/01:
+--------------
+Implementing UI design for each file which
+acts as the chatrooms page. CSS3 was written 
+with references to the div tags that had
+already been made within the (wireframe)
+HTML5 code. Positioning and sizing etc, 
+then applied using CSS3.
+
+12/02 - 16/02:
+--------------
+Creating the message form used to send messages
+to the selected chat area. PHP+MySQL have been used
+to interact with the database and HTML5+CSS3 have been
+used to deal with the front-end functionality and
+styling of the form.
+
+17/02 - 04/04:
+--------------
+Further changes were made , primarily to the UI of the
+chatrooms and extra security features were added to prevent
+security threats.
